@@ -1,0 +1,13 @@
+Para usar PHP nas pags HTML basta usar o codigo dentro da tag. EX: <? php //codigo ?>
+Em PHP variaveis são representadas pelo "$" (Ex. $curso = "variavel";) ; 
+Não precisamos definir seu tipo;
+para imprimir dados usamos o "echo"; 
+Possui if/else, for, while;
+existe o metodo/função array() e basta só inserir o valores(qualquer tipo);
+Concatena usando o . (ponto);
+Declara-se funções usando function;
+Existe metodo get ($_GET[]);
+Container é um componente que garante que o layout fiuqe alinhado independentemente do tamanho da tela;
+Alguns codigo: 200(requisição OK), 404(not found), 302(redirect);
+Sempre que fizer um location tem que fazer um die(), pois não queremos realizar mais nada além da pagina atualizada;
+
