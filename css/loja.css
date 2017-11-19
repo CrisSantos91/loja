@@ -1,8 +1,13 @@
 body {
     padding-top: 50px;
+    color: #900;
 }
 
 .principal {
     padding: 40px 15px;
     text-align: center;
+}
+
+thead{
+	color: #900;
 }

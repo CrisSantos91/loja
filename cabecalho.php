@@ -11,12 +11,12 @@
 
             <table class="table table-bordered table-hover table-dark">
                 <thead>
-                    <tr>
-                        <th scope="col"><a href="index.php" class="navbar-brand">Minha Loja</a></th>
-                        <th scope="col" ><a href="produto-formulario.php">Adiciona Produto</a></th>
-                        <th scope="col"><a href="produto-lista.php">Produtos</a></th>
-                        <th scope="col"><a href="sobre.php">Sobre</a></th>
-                    </tr>
+
+                    <th><a href="index.php" class="navbar-brand">Minha Loja</a></th>
+                    <th><a href="produto-formulario.php">Adiciona Produto</a></th>
+                    <th><a href="produto-lista.php">Produtos</a></th>
+                    <th><a href="sobre.php">Sobre</a></th>
+                    
                 </thead>
             </table>
             
