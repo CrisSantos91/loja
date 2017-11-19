@@ -5,7 +5,7 @@
 <?php if(array_key_exists("removido", $_GET) && $_GET['removido']=='true') { ?>
     <p class="alert-success">Produto apagado com sucesso.</p>
 <?php } ?>
-
+<div class="container-fluid">
 <table class="table table-striped table-bordered">
 
     <?php
@@ -28,5 +28,5 @@
         endforeach
     ?>
 </table>
-
+</div>
 <?php include("rodape.php"); ?>

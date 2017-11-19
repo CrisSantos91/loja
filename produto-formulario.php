@@ -7,6 +7,7 @@ $categorias = listaCategorias($conexao);
 
 <h1>Formulário de cadastro</h1>
 <form action="adiciona-produto.php" method="post">
+	<div class="container-fluid">
     <table class="table">
         <tr>
             <td>Nome</td>
@@ -32,6 +33,7 @@ $categorias = listaCategorias($conexao);
             <td><button class="btn btn-primary" type="submit">Cadastrar</button></td>
         </tr>
     </table>
+</div>
 </form>
 
 <?php include("rodape.php"); ?>
