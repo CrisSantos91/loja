@@ -5,7 +5,7 @@
 $categorias = listaCategorias($conexao);
 ?>
 
-<h1>Formulário de cadastro</h1>
+<h1>Formulário de produto</h1>
 <form action="adiciona-produto.php" method="post">
 	<div class="container-fluid">
     <table class="table">
