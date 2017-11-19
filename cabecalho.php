@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/loja.css" rel="stylesheet" />
-</head>
-<body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
 
@@ -22,6 +20,9 @@
             
         </div>
     </div>
+</head>
+<body>
+
 
     <div class="container">
 

@@ -5,9 +5,8 @@
 $categorias = listaCategorias($conexao);
 ?>
 
-<h1>Formulário de produto</h1>
+<h1>Formulário de cadastro</h1>
 <form action="adiciona-produto.php" method="post">
-	<div class="container-fluid">
     <table class="table">
         <tr>
             <td>Nome</td>
@@ -22,18 +21,23 @@ $categorias = listaCategorias($conexao);
             <td><textarea class="form-control" name="descricao"></textarea></td>
         </tr>
         <tr>
+            <td></td>
+            <td><input type="checkbox" name="usado" value="true"> Usado
+        </tr>
+        <tr>
             <td>Categoria</td>
             <td>
-                <?php foreach($categorias as $categoria) : ?>
-                    <input type="radio" name="categoria_id" value="<?=$categoria['id']?>"><?=$categoria['nome']?></br>
-                <?php endforeach ?>
+                <select class="form-control" name="categoria_id">
+                    <?php foreach($categorias as $categoria) : ?>
+                        <option value="<?=$categoria['id']?>"><?=$categoria['nome']?></option>
+                    <?php endforeach ?>
+                </select>
             </td>
         </tr>
         <tr>
             <td><button class="btn btn-primary" type="submit">Cadastrar</button></td>
         </tr>
     </table>
-</div>
 </form>
 
 <?php include("rodape.php"); ?>
